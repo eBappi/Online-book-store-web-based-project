@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<!-- saved from url=(0037)http://localhost/bappi/admin_book.php -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>List book</title>
+
+    <link href="./List book_files/bootstrap.min.css" rel="stylesheet">
+    <link href="./List book_files/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="./List book_files/jumbotron.css" rel="stylesheet">
+    
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+          <div style="width: 400px; ">
+          <div class="row">
+            <a class="navbar-brand" href="http://localhost/bappi/index.php" col-md-3="">Bookland</a>
+            <form method="post" action="http://localhost/bappi/search_book.php" class="col-md-6" style="margin-top:7px">
+              <input type="text" class="form-control" id="inputPassword2" placeholder="Search By Keyword" name="text">
+              <button type="submit" class="btn btn-primary mb-2" style="display:none"></button>
+           </form>
+          </div>
+          </div>
+        </div>
+
+        <!--/.navbar-collapse -->
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+              <!-- link to publiser_list.php -->
+              <li><a href="http://localhost/bappi/publisher_list.php"><span class="glyphicon glyphicon-paperclip"></span>&nbsp; Publishers</a></li>
+              
+              <li><a href="http://localhost/bappi/category_list.php"><span class="glyphicon glyphicon-list-alt"></span>&nbsp; Categories</a></li>
+              <!-- link to books.php -->
+              <li><a href="http://localhost/bappi/books.php"><span class="glyphicon glyphicon-book"></span>&nbsp; Books</a></li>
+              <!-- link to shopping cart -->
+              <li><a href="http://localhost/bappi/cart.php"><span class="glyphicon glyphicon-shopping-cart"></span>&nbsp; My Cart</a></li>
+               <li><a href="http://localhost/bappi/signin.php"><span class="	glyphicon glyphicon-log-in"></span>&nbsp; Signin</a></li><li><a href="http://localhost/bappi/signup.php"><span class="glyphicon glyphicon-plus-sign"></span>&nbsp;Sign up</a></li>              
+            </ul>
+        </div>
+      </div>
+    </nav>
+    
+    <div class="container" id="main">	
+	<div>
+	<a href="http://localhost/bappi/admin_signout.php" class="btn btn-danger"><span class="glyphicon glyphicon-off"></span>&nbsp;Logout</a>
+	<a href="http://localhost/bappi/admin_publishers.php" class="btn btn-primary"><span class="glyphicon glyphicon-paperclip"></span>&nbsp;Publishers</a>
+	<a href="http://localhost/bappi/admin_categories.php" class="btn btn-primary"><span class="glyphicon glyphicon-list-alt"></span>&nbsp;Categories</a>
+		</div>
+	
+	<table class="table" style="margin-top: 20px">
+		<tbody><tr>
+			<th>ISBN</th>
+			<th>Title</th>
+			<th>Author</th>
+			<th>Image</th>
+			<th>Description</th>
+			<th>Price</th>
+			<th>Publisher</th>
+			<th>Category</th>
+			<th>&nbsp;</th>
+			<th>&nbsp;</th>
+		</tr>
+				<tr>
+			<td>9781409178811</td>
+			<td>Broken Throne</td>
+			<td>Victoria Aveyard</td>
+			<td>broken throne.jpg</td>
+			<td>The stunning sequel to Sarah J. Maas New York Times bestselling A Court of Thorns and Roses and a No.1 New York Times bestseller.Feyre survived Amaranthas clutches to return to the Spring Court - but at a steep cost. Though she now has the powers of the High Fae, her heart remains human, and it cant forget the terrible deeds she performed to save Tamlins people.Nor has Feyre forgotten her bargain with Rhysand, High Lord of the feared Night Court. As Feyre navigates its dark web of politics, passion, and dazzling power, a greater evil looms - and she might be key to stopping it. But only if she can harness her harrowing gifts, heal her fractured soul, and decide how she wishes to shape her future - and the future of a world cleaved in two.With more than a million copies sold of her beloved Throne of Glass series, Sarah J. Maass masterful storytelling brings this second book in her seductive and action-packed series to new heights. Older teens will love A Court of Mist and Fury.Contains mature content. Not suitable for younger readers.</td>
+			<td>17.99</td>
+			<td>Bloomsbury Publishing PLC</td>
+			<td>Children</td>
+			<td><a href="http://localhost/bappi/admin_edit.php?bookisbn=9781409178811"><span class="glyphicon glyphicon-pencil"></span>Edit</a></td>
+		</tr>
+				<tr>
+			<td>9780575081406</td>
+			<td>The Name of the Wind (The Kingkiller Chronicle Book 1)</td>
+			<td>Patrick Rothfuss</td>
+			<td>the name of the wind.jpg</td>
+			<td>The Name of the Wind is fantasy at its very best, and an astounding must-read title.
+
+I have stolen princesses back from sleeping barrow kings. I burned down the town of Trebon. I have spent the night with Felurian and left with both my sanity and my life. I was expelled from the University at a younger age than most people are allowed in. I tread paths by moonlight that others fear to speak of during day. I have talked to Gods, loved women, and written songs that make the minstrels weep.
+
+My name is Kvothe.
+
+You may have heard of me
+
+So begins the tale of Kvothe - currently known as Kote, the unassuming innkeepter - from his childhood in a troupe of traveling players, through his years spent as a near-feral orphan in a crime-riddled city, to his daringly brazen yet successful bid to enter a difficult and dangerous school of magic. In these pages you will come to know Kvothe the notorious magician, the accomplished thief, the masterful musician, the dragon-slayer, the legend-hunter, the lover, the thief and the infamous assassin.
+
+The Name of the Wind is fantasy at its very best, and an astounding must-read title.</td>
+			<td>19.99</td>
+			<td>OReilly Media</td>
+			<td>Fiction</td>
+			<td><a href="http://localhost/bappi/admin_edit.php?bookisbn=9780575081406"><span class="glyphicon glyphicon-pencil"></span>Edit</a></td>
+		</tr>
+				<tr>
+			<td>978-1-484217-26-9</td>
+			<td>GOOD NIGHT STORIES FOR REBEL GIRLS 2</td>
+			<td>Elena Favilli &amp; Francesca Cavallo, Elena Favilli</td>
+			<td>goodnight stories for rebel girls.jpg</td>
+			<td>100 new bedtime stories, each inspired by the life and adventures of extraordinary women from Nefertiti to Beyonce. The unique narrative style of "Good Night Stories for Rebel Girls" transforms each biography in a fairy-tale, filling the readers with wonder and with a burning curiosity to know more about each hero.</td>
+			<td>49.99</td>
+			<td>OReilly Media</td>
+			<td>Children</td>
+			<td><a href="http://localhost/bappi/admin_edit.php?bookisbn=978-1-484217-26-9"><span class="glyphicon glyphicon-pencil"></span>Edit</a></td>
+		</tr>
+				<tr>
+			<td>978-1-484216-40-8</td>
+			<td>BECOMING</td>
+			<td>Michelle Obama</td>
+			<td>becoming.jpg</td>
+			<td>This memoir will chronicle the former First Ladys life from a childhood on the South Side of Chicago to her years as an executive balancing the demands of motherhood and work, as well as her time in the White House.
+
+In a statement, she said: Writing Becoming has been a deeply personal experience. It has allowed me, for the very first time, the space to honestly reflect on the unexpected trajectory of my life.
+
+“In this book, I talk about my roots and how a little girl from the South Side of Chicago found her voice and developed the strength to use it to empower others. I hope my journey inspires readers to find the courage to become whoever they aspire to be. I cant wait to share my story.</td>
+			<td>49.99</td>
+			<td>Wiley</td>
+			<td>Non-Fiction</td>
+			<td><a href="http://localhost/bappi/admin_edit.php?bookisbn=978-1-484216-40-8"><span class="glyphicon glyphicon-pencil"></span>Edit</a></td>
+		</tr>
+				<tr>
+			<td>978-1-4571-0402-2</td>
+			<td>ATLAS OF MONSTERS AND GHOSTS</td>
+			<td>Lonely Planet</td>
+			<td>monsters and ghosts.jpg</td>
+			<td>If you believe that all you need to fight an evil bloodthirsty fiend is garlic or holy water, think again. What you need is to keep a cool head and reach for your copy of Atlas of Monsters and Ghosts!
+
+Have you heard of the headless man roaming Edinburgh Castle? Or the mysterious girl who asks for a ride to the cemetery and then disappears into the night? What about orcs, trolls, gremlins, krakens, bunyips and the Yara-Ma-Yha-Who?
+
+Join famous monster hunter Van Helsing on a trip around the globe to find haunted castles, restless spirits, terrifying dragons, wicked witches, and more. Learn the defining characteristics of each beast, where it can be found and – most importantly – how to defeat it.
+
+Organised by continent for easy monster-tracking, Lonely Planet Kids Atlas of Monsters and Ghosts gives you the lowdown on the worlds most famous ghosts and mythological creatures, each brought to life by Laura Brenllas beautiful illustrations.
+
+About Lonely Planet Kids: Lonely Planet Kids – an imprint of the worlds leading travel authority Lonely Planet – published its first book in 2011. Over the past 45 years, Lonely Planet has grown a dedicated global community of travellers, many of whom are now sharing a passion for exploration with their children. Lonely Planet Kids educates and encourages young readers at home and in school to learn about the world with engaging books on culture, sociology, geography, nature, history, space and more. We want to inspire the next generation of global citizens and help kids and their parents to approach life in a way that makes every day an adventure. Come explore!</td>
+			<td>26.99</td>
+			<td>Wrox</td>
+			<td>Children</td>
+			<td><a href="http://localhost/bappi/admin_edit.php?bookisbn=978-1-4571-0402-2"><span class="glyphicon glyphicon-pencil"></span>Edit</a></td>
+		</tr>
+				<tr>
+			<td>978-1-44937-075-6</td>
+			<td>CITY OF ASHES (THE MORTAL INSTRUMENTS BOOK 2)</td>
+			<td>Cassandra Clare</td>
+			<td>city of ashes.jpg</td>
+			<td>Discover more secrets about the Shadowhunters as they fight to protect the world from demons in the second book in the internationally bestselling Mortal Instruments series.Love and power are the deadliest temptations… Haunted by her past, Clary is dragged deeper into New York Citys terrifying underworld of demons and Shadowhunters – but can she control her feelings for a boy who can never be hers? Read all the sensational books in The Shadowhunter Chronicles: The Mortal Instruments, The Infernal Devices, Tales From the Shadowhunter Academy, The Bane Chronicles and The Shadowhunters Codex.</td>
+			<td>19.99</td>
+			<td>Not Set</td>
+			<td>Arts And Entertainments</td>
+			<td><a href="http://localhost/bappi/admin_edit.php?bookisbn=978-1-44937-075-6"><span class="glyphicon glyphicon-pencil"></span>Edit</a></td>
+		</tr>
+				<tr>
+			<td>978-1-44937-019-0</td>
+			<td>KINGDOM OF ASH (BOOK 6, THRONE OF GLASS)</td>
+			<td>Sarah J. Maas</td>
+			<td>kingdom if ash.jpg</td>
+			<td>Aelin Galathynius s journey from slave to assassin to queen reaches its heart-rending finale as war erupts across her world -
+She has risked everything to save her people but at a tremendous cost. Locked in an iron coffin by the Queen of the Fae, Aelin must draw upon her fiery will to endure the months of torture inflicted upon her. The knowledge that yielding to Maeve will doom those she loves keeps her from breaking, but her resolve is unravelling with each passing day -
+With Aelin imprisoned, Aedion and Lysandra are the last line of defence keeping Terrasen from utter destruction. But even the many allies they ve gathered to battle Erawan s hordes might not be enough to save the kingdom. Scattered throughout the continent and racing against time, Chaol, Manon, and Dorian must forge their own paths to meet their destinies. And across the sea Rowan hunts to find his captured wife and queen before she is lost to him.
+Some bonds will deepen and others be severed forever, but as the threads of fate weave together at last, all must fight if they are to find salvation and a better world.
+Years in the making,Kingdom of Ashis the unforgettable conclusion to Sarah J. Maas s #1New York Timesbestselling Throne of Glass series.</td>
+			<td>19.99</td>
+			<td>Wiley</td>
+			<td>Cooking,Food And Drink</td>
+			<td><a href="http://localhost/bappi/admin_edit.php?bookisbn=978-1-44937-019-0"><span class="glyphicon glyphicon-pencil"></span>Edit</a></td>
+		</tr>
+				<tr>
+			<td>978-1-1180-2669-4</td>
+			<td>FIVE FEET APART</td>
+			<td>Rachael Lippincott, Mikki Daughtry, Tobias Iaconis</td>
+			<td>five feet apart.jpg</td>
+			<td>In this moving story thats perfect for fans of John Greens The Fault in Our Stars, two teens fall in love with just one minor complication-they cant get within a few feet of each other without risking their lives. Can you love someone you can never touch? Stella Grant likes to be in control-even though her totally out of control lungs have sent her in and out of the hospital most of her life. At this point, what Stella needs to control most is keeping herself away from anyone or anything that might pass along an infection and jeopardize the possibility of a lung transplant. Six feet apart. No exceptions. The only thing Will Newman wants to be in control of is getting out of this hospital. He couldnt care less about his treatments, or a fancy new clinical drug trial. Soon, hell turn eighteen and then hell be able to unplug all these machines and actually go see the world, not just its hospitals. Wills exactly what Stella needs to stay away from. If he so much as breathes on Stella she could lose her spot on the transplant list. Either one of them could die. The only way to stay alive is to stay apart. But suddenly six feet doesnt feel like safety. It feels like punishment. What if they could steal back just a little bit of the space their broken lungs have stolen from them? Would five feet apart really be so dangerous if it stops their hearts from breaking too?</td>
+			<td>16.99</td>
+			<td>OReilly Media</td>
+			<td>Health And Diet</td>
+			<td><a href="http://localhost/bappi/admin_edit.php?bookisbn=978-1-1180-2669-4"><span class="glyphicon glyphicon-pencil"></span>Edit</a></td>
+		</tr>
+				<tr>
+			<td>978-1-118-94924-5</td>
+			<td>THE GOOD THIEVES</td>
+			<td>Katherine Rundell</td>
+			<td>the good theives.jpg</td>
+			<td>An amazing adventure story, told with sparkling style and sleight of hand JACQUELINE WILSON
+
+Vita set her jaw, and nodded at New York City in greeting, as a boxer greets an opponent before a fight.
+
+Fresh off the boat from England, Vita Marlowe has a job to do. Her beloved grandfather Jack has been cheated out of his home and possessions by a notorious conman with Mafia connections. Seeing Jack spirit is broken, Vita is desperate to make him happy again, so she devises a plan to outwit his enemies and recover his home.
+She finds a young pickpocket, working the streets of the city. And, nearby, two boys with highly unusual skills and secrets of their own are about to be pulled into her lawless, death-defying plan.
+
+Katherine Rundells fifth novel is a heist as never seen before - the story of a group of children who will do anything to right a wrong.</td>
+			<td>11.99</td>
+			<td>OReilly Media</td>
+			<td>Children</td>
+			<td><a href="http://localhost/bappi/admin_edit.php?bookisbn=978-1-118-94924-5"><span class="glyphicon glyphicon-pencil"></span>Edit</a></td>
+		</tr>
+				<tr>
+			<td>978-0-7303-1484-4</td>
+			<td>THE FAST DIET RECIPE BOOK (THE OFFICIAL 5:2 DIET)</td>
+			<td>Mimi Spencer, Sarah Schenker</td>
+			<td>the fast diet recipe book.jpg</td>
+			<td>Following the #1 bestselling The Fast Diet, this fabulous cookbook offers 150 carefully crafted, nutritious, low-calorie recipes to enable you to incorporate the 5:2 weight-loss system into your daily life.
+
+As revealed by Dr Michael Mosley in The Fast Diet, scientific trials have revealed that if you eat normally for five days a week but reduce your calorie intake for only two days, you will not only lose weight but potentially lower your risk of cancer, diabetes and other age-related diseases.
+
+The recipes here range from simple breakfasts to leisurely suppers and warming winter stews, all expertly balanced and calorie-counted by leading nutritionist Dr Sarah Schenker. Theres also a month of meal plans for men and women and Mimi Spencer, co-writer of The Fast Diet, offers a groundbreaking guide to following this diet in a safe, effective and sustainable way - you will never have to worry about planning your fast days again. There are plenty of encouraging tips - including kitchen cupboard essentials and a whole section of speedy meals that can be quickly made for those busier days.
+
+This book offers a wonderful companion guide to the groundbreaking Fast Diet, with recipes so delicious youll find yourself looking forward to your Fast Days. Youll lose weight, and enjoy doing it.</td>
+			<td>24.99</td>
+			<td>Paper Back</td>
+			<td>Fiction</td>
+			<td><a href="http://localhost/bappi/admin_edit.php?bookisbn=978-0-7303-1484-4"><span class="glyphicon glyphicon-pencil"></span>Edit</a></td>
+		</tr>
+				<tr>
+			<td>123456</td>
+			<td>Systems Analysis</td>
+			<td>Michael C. Smith</td>
+			<td>system analysis.jpg</td>
+			<td>Presents the foundational systemic thinking needed to conceive systems that address complex socio-technical problems This book emphasizes the underlying systems analysis components and associated thought processes. The authors describe an approach that is appropriate for complex systems in diverse disciplines complemented by a case-based pedagogy for teaching systems analysis that includes numerous cases that can be used to teach both the art and methods of systems analysis.</td>
+			<td>10.00</td>
+			<td>cse</td>
+			<td>Engineering</td>
+			<td><a href="http://localhost/bappi/admin_edit.php?bookisbn=123456"><span class="glyphicon glyphicon-pencil"></span>Edit</a></td>
+		</tr>
+			</tbody></table>
+
+	</div> <!-- /container -->
+  
+</body></html>

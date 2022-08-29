@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!-- saved from url=(0033)http://localhost/bappi/signin.php -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>User SignIn</title>
+
+    <link href="./User SignIn_files/bootstrap.min.css" rel="stylesheet">
+    <link href="./User SignIn_files/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="./User SignIn_files/jumbotron.css" rel="stylesheet">
+    
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+          <div style="width: 400px; ">
+          <div class="row">
+            <a class="navbar-brand" href="http://localhost/bappi/index.php" col-md-3="">Bookland</a>
+            <form method="post" action="http://localhost/bappi/search_book.php" class="col-md-6" style="margin-top:7px">
+              <input type="text" class="form-control" id="inputPassword2" placeholder="Search By Keyword" name="text">
+              <button type="submit" class="btn btn-primary mb-2" style="display:none"></button>
+           </form>
+          </div>
+          </div>
+        </div>
+
+        <!--/.navbar-collapse -->
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+              <!-- link to publiser_list.php -->
+              <li><a href="http://localhost/bappi/publisher_list.php"><span class="glyphicon glyphicon-paperclip"></span>&nbsp; Publishers</a></li>
+              
+              <li><a href="http://localhost/bappi/category_list.php"><span class="glyphicon glyphicon-list-alt"></span>&nbsp; Categories</a></li>
+              <!-- link to books.php -->
+              <li><a href="http://localhost/bappi/books.php"><span class="glyphicon glyphicon-book"></span>&nbsp; Books</a></li>
+              <!-- link to shopping cart -->
+              <li><a href="http://localhost/bappi/cart.php"><span class="glyphicon glyphicon-shopping-cart"></span>&nbsp; My Cart</a></li>
+               <li><a href="http://localhost/bappi/signin.php"><span class="	glyphicon glyphicon-log-in"></span>&nbsp; Signin</a></li><li><a href="http://localhost/bappi/signup.php"><span class="glyphicon glyphicon-plus-sign"></span>&nbsp;Sign up</a></li>              
+            </ul>
+        </div>
+      </div>
+    </nav>
+    
+    <div class="container" id="main">
+	<form class="form-horizontal" method="post" action="http://localhost/bappi/user_verify.php">
+  <div class="form-group">
+    <label for="exampleInputEmail1">Username</label>
+    <input type="text" class="form-control" aria-describedby="emailHelp" placeholder="Enter username" name="username">
+    <small class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" placeholder="Password" name="password">
+  </div>
+  
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+<div style="position:fixed; bottom:400px">
+</div>
+	</div> <!-- /container -->
+  
+</body></html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://localhost/bappi/index.php -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Index</title>
+
+    <link href="./Index_files/bootstrap.min.css" rel="stylesheet">
+    <link href="./Index_files/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="./Index_files/jumbotron.css" rel="stylesheet">
+    
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+          <div style="width: 400px; ">
+          <div class="row">
+            <a class="navbar-brand" href="http://localhost/bappi/index.php" col-md-3="">BAPPI.COM</a>
+            <form method="post" action="http://localhost/bappi/search_book.php" class="col-md-6" style="margin-top:7px">
+              <input type="text" class="form-control" id="inputPassword2" placeholder="Search By Keyword" name="text">
+              <button type="submit" class="btn btn-primary mb-2" style="display:none"></button>
+           </form>
+          </div>
+          </div>
+        </div>
+
+        <!--/.navbar-collapse -->
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+              <!-- link to publiser_list.php -->
+              <li><a href="http://localhost/bappi/publisher_list.php"><span class="glyphicon glyphicon-paperclip"></span>&nbsp; Publishers</a></li>
+              
+              <li><a href="http://localhost/bappi/category_list.php"><span class="glyphicon glyphicon-list-alt"></span>&nbsp; Categories</a></li>
+              <!-- link to books.php -->
+              <li><a href="http://localhost/bappi/books.php"><span class="glyphicon glyphicon-book"></span>&nbsp; Books</a></li>
+              <!-- link to shopping cart -->
+              <li><a href="http://localhost/bappi/cart.php"><span class="glyphicon glyphicon-shopping-cart"></span>&nbsp; My Cart</a></li>
+               <li><a href="http://localhost/bappi/signin.php"><span class="	glyphicon glyphicon-log-in"></span>&nbsp; Signin</a></li><li><a href="http://localhost/bappi/signup.php"><span class="glyphicon glyphicon-plus-sign"></span>&nbsp;Sign up</a></li>              
+            </ul>
+        </div>
+      </div>
+    </nav>
+        <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron" style="  background: url(&#39;https://www.econlib.org/wp-content/uploads/2018/02/LF-books-background.png&#39;) no-repeat center center;background-size: cover;height:400px
+;
+  ">
+      <div class="container">
+        <h1 style="text-align:center; margin:5% auto;">WELCOME TO THE BOOKLAND</h1>   
+        <p style="text-align:center; margin:5% auto;">Here you can find your favourite books and order them online!</p>     
+      </div>
+    </div>
+    
+    <div class="container" id="main"> 
+     
+     <br> <br>
+      <p class="lead text-center text-muted">OUR LATEST BOOKS</p>
+      <br><br>
+      <div class="row">
+              	<div class="col-md-3">
+      		<a href="http://localhost/bappi/book.php?bookisbn=9781409178811">
+           <img class="img-responsive img-thumbnail" src="./Index_files/broken throne.jpg">
+          </a>
+      	</div>
+              	<div class="col-md-3">
+      		<a href="http://localhost/bappi/book.php?bookisbn=9780575081406">
+           <img class="img-responsive img-thumbnail" src="./Index_files/the name of the wind.jpg">
+          </a>
+      	</div>
+              	<div class="col-md-3">
+      		<a href="http://localhost/bappi/book.php?bookisbn=978-1-484217-26-9">
+           <img class="img-responsive img-thumbnail" src="./Index_files/goodnight stories for rebel girls.jpg">
+          </a>
+      	</div>
+              	<div class="col-md-3">
+      		<a href="http://localhost/bappi/book.php?bookisbn=978-1-484216-40-8">
+           <img class="img-responsive img-thumbnail" src="./Index_files/becoming.jpg">
+          </a>
+      	</div>
+              </div>
+	</div> <!-- /container -->
+  
+</body></html>
